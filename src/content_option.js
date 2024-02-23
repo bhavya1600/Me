@@ -96,9 +96,9 @@ const contactConfig = {
     description: "Feel free to get in touch, drop me a message!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_b6z9qik",
+    YOUR_TEMPLATE_ID: "template_yuc063e",
+    YOUR_USER_ID: "bchhabr2@gmail.com",
 };
 
 const socialprofils = {
