@@ -29,7 +29,7 @@ const worktimeline = [{
     {
         jobtitle: "Machine Learning Intern",
         where: "CapmAI",
-        date: "Jan - Feb 2024",
+        date: "Jan - Feb 2023",
     },
     {
         jobtitle: "Data Science Intern",
