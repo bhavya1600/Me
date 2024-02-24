@@ -77,8 +77,20 @@ const services = [{
         description: "Developed an LSTM-based text classification model with GloVe embeddings and a hierarchical attention mechanism, enhancing accuracy on the DBPedia dataset.",
     },
     {
-        title: "Forecasting US Elections using Twitter Data",
+        title: "Melanoma Skin Cancer Classification using a Custom Integrated Model",
+        description: "Conceptualized and innovated a Custom Integrated Computer Vision model by combining a CNN with a tabular model using PyTorch, FastAI framework for improving accuracy in Melanoma classification tasks and utilized the model using StreamLit",
+    },
+    {
+        title: "Stellar Object Classification - ML Comparative Analysis",
+        description: "Experimented and compared various ML Algorithms to determine Stellar object classes.",
+    },
+    {
+        title: "Forecasting USA Elections using Twitter Data",
         description: "Predicted Joe Biden's victory in USA Presidential elections by large scale sentiment analysis using tweets spanning over 6 months.",
+    },
+    {
+        title: "Facial Emotion Classifier",
+        description: "Developed a multi-class image classifier to detect 6 emotion classes with 85% Accuracy",
     },
 ];
 
@@ -95,7 +107,7 @@ const dataportfolio = [{
     {
         img: "https://i.imgur.com/4nSblJq.png",
         description: "Melanoma Skin Cancer Classification using a Custom Integrated Model",
-        link: "https://github.com/bhavya1600",
+        link: "https://www.ijariit.com/manuscript/melanoma-classification-using-convolutional-neural-network-model-integrated-with-tabular-model/",
     },
     {
         img: "https://i.imgur.com/sv6w82r.png",
@@ -112,6 +124,18 @@ const dataportfolio = [{
         description: "Facial Emotion Classifier",
         link: "https://github.com/Data-Science-Community-SRM/MoodyCat",
     },
+    {
+        img: "https://i.imgur.com/j5NspzZ.png",
+        description: "Data Analysis of World Terrorism Activities using Big Data Tools",
+        link: "https://ieeexplore.ieee.org/document/9315784",
+    },
+    {
+        img: "https://i.imgur.com/yQsUmzj.png",
+        description: "Multilingual Crawling Strategies for Information Retrieval from BRICS Academic Websites",
+        link: "https://www.springer.com/-/0/AXmtUQ4HF2fwPt9SXJLj",
+    },
+    
+    
     
 ];
 
