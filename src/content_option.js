@@ -83,9 +83,9 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/sqJ0xj2.png",
+        description: "Autonomous Drone for Infrastructural Inspection",
+        link: "https://github.com/autonomous-inspection",
     },
     
 ];
