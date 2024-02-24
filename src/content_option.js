@@ -87,6 +87,27 @@ const dataportfolio = [{
         description: "Autonomous Drone for Infrastructural Inspection",
         link: "https://github.com/autonomous-inspection",
     },
+    {
+        img: "blob:https://imgur.com/4850a29f-84e8-4f71-bcbc-558244f2310c",
+        description: "Advanced Multi-Class Text Classification via LSTM Networks with Hierarchical Attention Mechanism",
+        link: "https://github.com/bhavya1600",
+    },
+    {
+        img: "https://i.imgur.com/4nSblJq.png",
+        description: "Melanoma Skin Cancer Classification using a Custom Integrated Model",
+        link: "https://github.com/bhavya1600",
+    },
+    {
+        img: "https://i.imgur.com/sv6w82r.png",
+        description: "Stellar object classification - ML Comparative Analysis",
+        link: "https://github.com/bhavya1600",
+    },
+    {
+        img: "blob:https://imgur.com/76897f68-b06d-42f3-8e68-f4bb639f5854",
+        description: "Forecasting U.S.A Elections",
+        link: "https://github.com/Data-Science-Community-SRM/Forecasting-US-Elections",
+    },
+    
     
 ];
 
