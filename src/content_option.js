@@ -107,7 +107,11 @@ const dataportfolio = [{
         description: "Forecasting U.S.A Elections",
         link: "https://github.com/Data-Science-Community-SRM/Forecasting-US-Elections",
     },
-    
+    {
+        img: "https://i.imgur.com/95oeXKJ.png",
+        description: "Facial Emotion Classifier",
+        link: "https://github.com/Data-Science-Community-SRM/MoodyCat",
+    },
     
 ];
 
