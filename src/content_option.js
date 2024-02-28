@@ -95,42 +95,42 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://i.imgur.com/sqJ0xj2.png",
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/drone.png?raw=true",
         description: "Autonomous Drone for Infrastructural Inspection",
         link: "https://github.com/autonomous-inspection",
     },
     {
-        img: "https://i.imgur.com/t3PZIfU.png",
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/transformer.png?raw=true",
         description: "Advanced Multi-Class Text Classification via LSTM Networks with Hierarchical Attention Mechanism",
         link: "https://github.com/bhavya1600",
     },
     {
-        img: "https://i.imgur.com/4nSblJq.png",
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/cancer.png?raw=true",
         description: "Melanoma Skin Cancer Classification using a Custom Integrated Model",
         link: "https://www.ijariit.com/manuscript/melanoma-classification-using-convolutional-neural-network-model-integrated-with-tabular-model/",
     },
     {
-        img: "https://i.imgur.com/sv6w82r.png",
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/stellar.png?raw=true",
         description: "Stellar object classification - ML Comparative Analysis",
         link: "https://github.com/bhavya1600",
     },
     {
-        img: "https://i.imgur.com/PtCO3U9.png",
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/uselections.png?raw=true",
         description: "Forecasting U.S.A Elections",
         link: "https://github.com/Data-Science-Community-SRM/Forecasting-US-Elections",
     },
     {
-        img: "https://i.imgur.com/95oeXKJ.png",
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/moodycat.png?raw=true",
         description: "Facial Emotion Classifier",
         link: "https://github.com/Data-Science-Community-SRM/MoodyCat",
     },
     {
-        img: "https://i.imgur.com/j5NspzZ.png",
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/terrorism.png?raw=true",
         description: "Data Analysis of World Terrorism Activities using Big Data Tools",
         link: "https://ieeexplore.ieee.org/document/9315784",
     },
     {
-        img: "https://i.imgur.com/yQsUmzj.png",
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/crawling.png?raw=true",
         description: "Multilingual Crawling Strategies for Information Retrieval from BRICS Academic Websites",
         link: "https://www.springer.com/-/0/AXmtUQ4HF2fwPt9SXJLj",
     },
