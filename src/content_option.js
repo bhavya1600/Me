@@ -12,7 +12,7 @@ const introdata = {
         third: "I develop Data Science solutions",
     },
     description: "Coding the Future, Byte by Byte. Explore my Vision of Tomorrow's AI",
-    your_img_url: "https://i.imgur.com/XoPX4fn.jpeg",
+    your_img_url: "https://github.com/bhavya1600/Me/blob/main/assets/img/Me.JPEG",
 };
 
 const dataabout = {
