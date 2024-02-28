@@ -1,0 +1,50 @@
+Folder PATH listing
+Volume serial number is 1233-DE6E
+F:.
+¦   content_option.js
+¦   filetree.txt
+¦   index.css
+¦   index.js
+¦   reportWebVitals.js
+¦   
++---app
+¦       App.css
+¦       App.js
+¦       routes.js
+¦       
++---assets
+¦   +---images
++---components
+¦   +---socialicons
+¦   ¦       index.js
+¦   ¦       style.css
+¦   ¦       
+¦   +---themetoggle
+¦           index.js
+¦           style.css
+¦           
++---header
+¦       index.js
+¦       style.css
+¦       
++---hooks
+¦       AnimatedCursor.js
+¦       withRouter.js
+¦       
++---pages
+    +---about
+    ¦       index.js
+    ¦       style.css
+    ¦       
+    +---contact
+    ¦       index.js
+    ¦       style.css
+    ¦       
+    +---home
+    ¦       index.js
+    ¦       style.css
+    ¦       
+    +---portfolio
+            index.js
+            style.css
+            
