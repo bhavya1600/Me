@@ -48,8 +48,8 @@ export const Home = () => {
                     </div>
                   </Link>
                   {/* My Resume button */}
-                  <a href="https://github.com/bhavya1600/Me/blob/9cc647070567935ddcc5b3cdd530e0aa0c39bc39/src/assets/docs/Bhavya_Resume_Latest.pdf" target="_blank" rel="noopener noreferrer" className="text_2">
-                    <div id="button_r" className="ac_btn btn">
+                  <a href="https://raw.githubusercontent.com/bhavya1600/Me/main/assets/docs/Bhavya_Resume_Latest.pdf" target="_blank" rel="noopener noreferrer" className="text_2">
+                    <div id="button_h" className="ac_btn btn">
                       My Resume
                       <div className="ring one"></div>
                       <div className="ring two"></div>
