@@ -132,7 +132,7 @@ const dataportfolio = [{
     {
         img: "https://github.com/bhavya1600/Me/blob/main/assets/img/crawling.png?raw=true",
         description: "Multilingual Crawling Strategies for Information Retrieval from BRICS Academic Websites",
-        link: "https://www.springer.com/-/0/AXmtUQ4HF2fwPt9SXJLj",
+        link: "https://link.springer.com/chapter/10.1007/978-981-33-4543-0_17",
     },
     
     
