@@ -1,4 +1,4 @@
-const logotext = "BHAVYA";
+const logotext = "Hello!";
 const meta = {
     title: "Bhavya Chhabra",
     description: "I’m Bhavya, aspiring data scientist with a touch of full stack dev skills (who doesn't like to be an all-rounder?)",
