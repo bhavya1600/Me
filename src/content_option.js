@@ -29,7 +29,7 @@ const worktimeline = [{
     {
         jobtitle: "Machine Learning Intern",
         where: "CapmAI",
-        date: "Jan - Feb 2023",
+        date: "Jan - Apr 2023",
     },
     {
         jobtitle: "Data Science Intern",
@@ -100,7 +100,7 @@ const dataportfolio = [{
         link: "https://github.com/autonomous-inspection",
     },
     {
-        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/transformer.png?raw=true",
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/LSTM.png?raw=true",
         description: "Advanced Multi-Class Text Classification via LSTM Networks with Hierarchical Attention Mechanism",
         link: "https://github.com/bhavya1600",
     },
@@ -110,7 +110,7 @@ const dataportfolio = [{
         link: "https://www.ijariit.com/manuscript/melanoma-classification-using-convolutional-neural-network-model-integrated-with-tabular-model/",
     },
     {
-        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/stellar.png?raw=true",
+        img: "https://github.com/Rutvik1999/Stellar-Classification",
         description: "Stellar object classification - ML Comparative Analysis",
         link: "https://github.com/bhavya1600",
     },
