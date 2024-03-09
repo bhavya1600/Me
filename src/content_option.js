@@ -100,7 +100,7 @@ const dataportfolio = [{
         link: "https://github.com/autonomous-inspection",
     },
     {
-        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/LSTM.png?raw=true",
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/document-classification.png?raw=true",
         description: "Advanced Multi-Class Text Classification via LSTM Networks with Hierarchical Attention Mechanism",
         link: "https://github.com/bhavya1600",
     },
@@ -110,7 +110,7 @@ const dataportfolio = [{
         link: "https://www.ijariit.com/manuscript/melanoma-classification-using-convolutional-neural-network-model-integrated-with-tabular-model/",
     },
     {
-        img: "https://github.com/Rutvik1999/Stellar-Classification",
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/stellar.png?raw=true",
         description: "Stellar object classification - ML Comparative Analysis",
         link: "https://github.com/bhavya1600",
     },
