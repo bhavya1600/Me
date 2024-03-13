@@ -112,7 +112,7 @@ const dataportfolio = [{
     {
         img: "https://github.com/bhavya1600/Me/blob/main/assets/img/stellar.png?raw=true",
         description: "Stellar object classification - ML Comparative Analysis",
-        link: "https://github.com/bhavya1600",
+        link: "https://github.com/Rutvik1999/Stellar-Classification",
     },
     {
         img: "https://github.com/bhavya1600/Me/blob/main/assets/img/uselections.png?raw=true",
