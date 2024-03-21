@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/static/css/main.d07a1c37.css",
     "main.js": "/static/js/main.f7664a5e.js",
     "index.html": "/index.html",
@@ -9,5 +10,16 @@
   "entrypoints": [
     "static/css/main.d07a1c37.css",
     "static/js/main.f7664a5e.js"
+=======
+    "main.css": "/static/css/main.54179614.css",
+    "main.js": "/static/js/main.a8ce0a46.js",
+    "index.html": "/index.html",
+    "main.54179614.css.map": "/static/css/main.54179614.css.map",
+    "main.a8ce0a46.js.map": "/static/js/main.a8ce0a46.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54179614.css",
+    "static/js/main.a8ce0a46.js"
+>>>>>>> 6cfdc3e (Resume)
   ]
 }
