@@ -9,7 +9,7 @@ const introdata = {
     animated: {
         first: "I love AI",
         second: "I create cool projects",
-        third: "I develop Data Science solutions",
+        third: "I develop tech solutions",
     },
     description: "Coding the Future, Byte by Byte. Explore my Vision of Tomorrow's AI",
     your_img_url: "https://github.com/bhavya1600/Me/blob/57ccaead32a46b2880a19f98fab63376fb2c1a62/assets/img/Me.JPEG?raw=true",
@@ -17,9 +17,9 @@ const introdata = {
 
 const dataabout = {
     title: "a bit about my self",
-    aboutme: "Hi, I'm Bhavya, an aspiring data scientist based in Canada. My work bridges the gap between technology and practical applications, focusing on using advanced analytics and machine learning to solve real-world problems. With experience ranging from developing AI models at \
-    London Hydro to innovative projects in anomaly detection and infrastructure inspection, my career is grounded in applying Python, AI, and cloud technologies to enhance efficiency and decision-making. Holding a Master’s in Computer Science with a specialization in AI, I am committed to \
-    lifelong learning and applying my skills to make a tangible impact."
+    aboutme: "Hi, I'm Bhavya, a versatile developer based in Canada. My work bridges the gap between technology and practical applications, combining frontend design, backend architecture, and data analytics to create comprehensive solutions. With experience ranging from developing end-to-end applications at \
+    London Hydro to building automated CI/CD pipelines and crafting innovative projects with React, Node.js, and machine learning, my career showcases a broad technical foundation. I thrive on automating complex workflows and creating efficient systems - from database optimization to deployment processes. \
+    Holding a Master's in Computer Science, I leverage both UI/UX principles and robust backend systems, while being committed to lifelong learning and building solutions that make a meaningful impact across all layers of modern applications."
 };
 const worktimeline = [{
         jobtitle: "Data Science and DevOps Engineer",
@@ -48,38 +48,58 @@ const skills = [{
     },
     {
         name: "SQL",
-        value: 80,
+        value: 90,
     },
     {
         name: "Javascript",
-        value: 50,
+        value: 90,
+    },
+    {
+        name: "React",
+        value: 85,
+    },
+    {
+        name: "Linux",
+        value: 85,
     },
     {
         name: "Cloud Technologies",
-        value: 70,
+        value: 80,
     },
     {
         name: "Prompt Engineering & AI Tools",
-        value: 85,
+        value: 95,
     },
 ];
 
 const services = [
     {
-        title: "Electric Vehicle Detection using Hourly Energy Usage Data - London Hydro | Python, TensorFlow Oct 2024",
-        description: "Developed a Deep Convolutional LSTM model to accurately identify and segment over 30,000 electric vehicle customers based on hourly electricity usage data. This segmentation enabled targeted marketing for the new Ultra Low Overnight price plan, increasing customer engagement and adoption rates.",
+        title: "Reposage: GitHub Repository Analyzer | Python, LangChain, OpenAI, Flask, HTML, CSS Feb 2025",
+        description: "Developed a full-stack tool that automatically analyzes GitHub repositories and generates detailed technical reports using Large Language Models (LLMs) via LangChain and OpenAI. Engineered a modular backend that parses repository structure, code files, and documentation, then summarizes architecture, dependencies, key modules, and contribution guidelines. Built a Flask-based web interface with input forms, markdown preview, and PDF export functionality.",
     },
     {
-        title: "Billing Forecast System - London Hydro | Python, Sklearn, MySQL Jan 2024",
-        description: "Utilized XGBoost Decision Trees to refine the existing non-ML based billing forecast system, decreasing percentage error by 60%. Improved forecast accuracy and customer satisfaction for over 100,000 users.",
-    },
-    {
-        title: "Directory Services Web Development - London Hydro | AWS, JavaScript, HTML, CSS Jun 2023",
+        title: "Directory Services Web Development - London Hydro | AWS, JavaScript, HTML, CSS Jan 2024",
         description: "Designed and implemented the Directory Services section for greenbuttonalliance.org, overcoming Novi AMS limitations by creating custom scripts hosted on AWS and embedding them via iframes. Built three distinct directories—Utilities, Third Party App Providers, and Platform Providers—by fetching data through API calls, applying business logic for content segregation, and dynamically displaying searchable, filterable, and paginated cards. Implemented dynamic search tools and filters, enabling efficient partner discovery and seamless collaboration between data custodians, third parties, and service providers.",
     },
     {
-        title: "Autonomous Drone for Infrastructural Inspection and Fault Detection",
-        description: "Automated an open-source drone (CrazyFlie) to fly to a specified portion of a building and survey for detecting faults or cracks using object detection and instance segmentation with YOLOv5 (mAP score: 88.5%, Seg Loss: 0.8%). Annotated and collected data manually. Deployed using Raspberry Pi.",
+        title: "Billing Forecast System - London Hydro | Python, Sklearn, MySQL Aug 2023",
+        description: "Utilized XGBoost Decision Trees (ML Model) to refine the existing Non-ML based billing forecast system, decreasing percentage error by 60%. Improved forecast accuracy and customer satisfaction for over 100,000 users.",
+    },
+    {
+        title: "Electric Vehicle Detection using Hourly Energy Usage Data - London Hydro | Python, TensorFlow Jun 2023",
+        description: "Developed a Deep Convolutional LSTM model to accurately identify and segment over 30,000 Electric Vehicle customers based on hourly electricity usage data. This segmentation enabled targeted marketing for the new Ultra Low Overnight price plan, increasing customer engagement and adoption rates.",
+    },
+    {
+        title: "Autonomous Drone for Infrastructural Inspection - UWO | Python, C++, PyTorch, Raspberry Pi Nov 2022",
+        description: "Programmed an open-source drone to autonomously navigate and inspect building infrastructures for faults using YOLOv7, achieving an 88.5% MAP score and 0.8 Seg Loss. Implemented real-time crack detection and video streaming capabilities and prototyped using Raspberry PI on board. Projected to reduce inspection times by 60% and increase human safety by 90%.",
+    },
+    {
+        title: "Melanoma Skin Cancer Classification - SRMIST | Python, FastAI Jun 2021",
+        description: "Innovated a hybrid model combining Convolutional Neural Network (CNN) with a tabular model using PyTorch and FastAI for Melanoma classification, achieving 96% accuracy and a 92% ROC score, deployed using Streamlit.",
+    },
+    {
+        title: "Forecasting USA Elections 2020 - SRMIST | Python, Sklearn, TensorFlow, NLP Jun 2021",
+        description: "Predicted President Joe Biden's victory through sentiment analysis and Natural Language Processing (NLP) techniques using Twitter data before the elections.",
     },
     {
         title: "Gastrointestinal System Anomaly Detection",
@@ -88,10 +108,6 @@ const services = [
     {
         title: "Advanced Text Classification via LSTM Networks with Hierarchical Attention Mechanism",
         description: "Developed an LSTM-based text classification model with GloVe embeddings and a hierarchical attention mechanism, enhancing accuracy on the DBPedia dataset.",
-    },
-    {
-        title: "Melanoma Skin Cancer Classification using a Custom Integrated Model",
-        description: "Conceptualized and innovated a custom integrated computer vision model by combining a CNN with a tabular model using PyTorch and the FastAI framework to improve accuracy in melanoma classification tasks and deployed the model using Streamlit.",
     },
     {
         title: "Stellar Object Classification - ML Comparative Analysis",
@@ -108,7 +124,18 @@ const services = [
 ];
 
 
-const dataportfolio = [{
+const dataportfolio = [
+    {
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/Github.jpg?raw=true",
+        description: "RepoSage: GitHub Repository Analyzer",
+        link: "https://github.com/bhavya1600/RepoSage",
+    },
+    {
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/GBA.jpg?raw=true",
+        description: "GreenButton Alliance Directory Services",
+        link: "https://www.greenbuttonalliance.org/directory-services",
+    },
+    {
         img: "https://github.com/bhavya1600/Me/blob/main/assets/img/drone.png?raw=true",
         description: "Autonomous Drone for Infrastructural Inspection",
         link: "https://github.com/autonomous-inspection",
@@ -155,7 +182,7 @@ const dataportfolio = [{
 
 const contactConfig = {
     YOUR_EMAIL: "bchhabr2@gmail.com",
-    YOUR_FONE: "(519)697-2236",
+    YOUR_FONE: "+1 (519)697-2236",
     description: "Feel free to get in touch, drop me a message!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -166,9 +193,7 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/bhavya1600/",
-    // facebook: "https://facebook.com",
     linkedin: "https://www.linkedin.com/in/bhavya-chhabra-1600/",
-    // twitter: "https://twitter.com",
 };
 export {
     meta,
