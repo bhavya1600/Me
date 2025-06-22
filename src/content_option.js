@@ -131,14 +131,9 @@ const dataportfolio = [
         link: "https://github.com/bhavya1600/RepoSage",
     },
     {
-        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/GBA.jpg?raw=true",
-        description: "GreenButton Alliance Directory Services",
-        link: "https://www.greenbuttonalliance.org/directory-services",
-    },
-    {
-        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/drone.png?raw=true",
-        description: "Autonomous Drone for Infrastructural Inspection",
-        link: "https://github.com/autonomous-inspection",
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/cancer.png?raw=true",
+        description: "Melanoma Skin Cancer Classification using a Custom Integrated Model",
+        link: "https://www.ijariit.com/manuscript/melanoma-classification-using-convolutional-neural-network-model-integrated-with-tabular-model/",
     },
     {
         img: "https://github.com/bhavya1600/Me/blob/main/assets/img/document-classification.png?raw=true",
@@ -146,10 +141,10 @@ const dataportfolio = [
         link: "https://github.com/bhavya1600",
     },
     {
-        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/cancer.png?raw=true",
-        description: "Melanoma Skin Cancer Classification using a Custom Integrated Model",
-        link: "https://www.ijariit.com/manuscript/melanoma-classification-using-convolutional-neural-network-model-integrated-with-tabular-model/",
-    },
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/drone.png?raw=true",
+        description: "Autonomous Drone for Infrastructural Inspection",
+        link: "https://github.com/autonomous-inspection",
+    },   
     {
         img: "https://github.com/bhavya1600/Me/blob/main/assets/img/stellar.png?raw=true",
         description: "Stellar object classification - ML Comparative Analysis",
@@ -159,6 +154,11 @@ const dataportfolio = [
         img: "https://github.com/bhavya1600/Me/blob/main/assets/img/uselections.png?raw=true",
         description: "Forecasting U.S.A Elections",
         link: "https://github.com/Data-Science-Community-SRM/Forecasting-US-Elections",
+    },
+    {
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/GBA.jpg?raw=true",
+        description: "GreenButton Alliance Directory Services",
+        link: "https://www.greenbuttonalliance.org/directory-services",
     },
     {
         img: "https://github.com/bhavya1600/Me/blob/main/assets/img/moodycat.png?raw=true",
