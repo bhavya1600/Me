@@ -156,14 +156,14 @@ const dataportfolio = [
         link: "https://github.com/Data-Science-Community-SRM/Forecasting-US-Elections",
     },
     {
-        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/GBA.jpg?raw=true",
-        description: "GreenButton Alliance Directory Services",
-        link: "https://www.greenbuttonalliance.org/directory-services",
-    },
-    {
         img: "https://github.com/bhavya1600/Me/blob/main/assets/img/moodycat.png?raw=true",
         description: "Facial Emotion Classifier",
         link: "https://github.com/Data-Science-Community-SRM/MoodyCat",
+    },
+    {
+        img: "https://github.com/bhavya1600/Me/blob/main/assets/img/GBA.jpg?raw=true",
+        description: "GreenButton Alliance Directory Services",
+        link: "https://www.greenbuttonalliance.org/directory-services",
     },
     {
         img: "https://github.com/bhavya1600/Me/blob/main/assets/img/terrorism.png?raw=true",
