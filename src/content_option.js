@@ -22,7 +22,7 @@ const dataabout = {
     Holding a Master's in Computer Science, I leverage both UI/UX principles and robust backend systems, while being committed to lifelong learning and building solutions that make a meaningful impact across all layers of modern applications."
 };
 const worktimeline = [{
-        jobtitle: "Data Science and DevOps Engineer",
+        jobtitle: "Full Stack & Automation DevOps Engineer",
         where: "London Hydro",
         date: "May 2023-Present",
     },
