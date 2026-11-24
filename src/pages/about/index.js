@@ -6,7 +6,9 @@ import {
   dataabout,
   meta,
   worktimeline,
-  skills,
+  skillgroups,
+  education,
+  certifications,
   services,
 } from "../../content_option";
 
@@ -37,22 +39,27 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">work timline</h3>
+            <h3 className="color_sec py-4">work timeline</h3>
           </Col>
           <Col lg="7">
-            <table className="table caption-top">
-              <tbody>
-                {worktimeline.map((data, i) => {
-                  return (
-                    <tr key={i}>
-                      <th scope="row">{data.jobtitle}</th>
-                      <td>{data.where}</td>
-                      <td>{data.date}</td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
+            <ol className="timeline">
+              {worktimeline.map((data, i) => (
+                <li className="timeline__item" key={i}>
+                  <div className="timeline__head">
+                    <h5 className="timeline__role">{data.jobtitle}</h5>
+                    <span className="timeline__date">{data.date}</span>
+                  </div>
+                  <p className="timeline__where">{data.where}</p>
+                  {data.highlights && (
+                    <ul className="timeline__points">
+                      {data.highlights.map((h, j) => (
+                        <li key={j}>{h}</li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              ))}
+            </ol>
           </Col>
         </Row>
         <Row className="sec_sp">
@@ -60,27 +67,48 @@ export const About = () => {
             <h3 className="color_sec py-4">skills</h3>
           </Col>
           <Col lg="7">
-            {skills.map((data, i) => {
-              return (
-                <div key={i}>
-                  <h3 className="progress-title">{data.name}</h3>
-                  <div className="progress">
-                    <div
-                      className="progress-bar"
-                      style={{
-                        width: `${data.value}%`,
-                      }}
-                    >
-                      <div className="progress-value">{data.value}%</div>
-                    </div>
-                  </div>
+            {skillgroups.map((group, i) => (
+              <div className="skill_group" key={i}>
+                <h3 className="progress-title">{group.name}</h3>
+                <div className="chips">
+                  {group.items.map((item, j) => (
+                    <span className="chip" key={j}>
+                      {item}
+                    </span>
+                  ))}
                 </div>
-              );
-            })}
+              </div>
+            ))}
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lang="5">
+          <Col lg="5">
+            <h3 className="color_sec py-4">education</h3>
+          </Col>
+          <Col lg="7">
+            <ol className="timeline">
+              {education.map((data, i) => (
+                <li className="timeline__item" key={i}>
+                  <div className="timeline__head">
+                    <h5 className="timeline__role">{data.degree}</h5>
+                    <span className="timeline__date">{data.date}</span>
+                  </div>
+                  <p className="timeline__where">
+                    {data.where} · {data.detail}
+                  </p>
+                </li>
+              ))}
+            </ol>
+            <h3 className="progress-title mt-5">Certifications</h3>
+            <ul className="timeline__points">
+              {certifications.map((c, i) => (
+                <li key={i}>{c}</li>
+              ))}
+            </ul>
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lg="5">
             <h3 className="color_sec py-4">projects</h3>
           </Col>
           <Col lg="7">

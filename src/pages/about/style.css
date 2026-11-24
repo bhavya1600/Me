@@ -98,3 +98,87 @@
         transform: translateZ(0);
     }
 }
+
+/* Timeline (work + education) */
+
+.timeline {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    border-left: 2px solid var(--text-color);
+}
+
+.timeline__item {
+    position: relative;
+    padding: 0 0 2rem 1.5rem;
+}
+
+.timeline__item::before {
+    content: "";
+    position: absolute;
+    left: -7px;
+    top: 0.45rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--bg-color);
+    border: 2px solid var(--text-color);
+}
+
+.timeline__head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.25rem 1rem;
+}
+
+.timeline__role {
+    margin: 0;
+    font-weight: 700;
+}
+
+.timeline__date {
+    font-size: 0.9rem;
+    opacity: 0.75;
+    white-space: nowrap;
+}
+
+.timeline__where {
+    margin: 0.25rem 0 0.5rem;
+    font-style: italic;
+    opacity: 0.85;
+}
+
+.timeline__points {
+    padding-left: 1.1rem;
+    margin: 0;
+}
+
+.timeline__points li {
+    margin-bottom: 0.35rem;
+}
+
+
+/* Skill chips */
+
+.skill_group {
+    margin-bottom: 1.5rem;
+}
+
+.skill_group .progress-title {
+    margin: 0 0 0.75rem;
+}
+
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.chip {
+    border: 1px solid var(--text-color);
+    padding: 0.2rem 0.65rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
-import { introdata, meta } from "../../content_option";
+import { introdata, meta, resumeUrl } from "../../content_option";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
@@ -48,7 +48,7 @@ export const Home = () => {
                     </div>
                   </Link>
                   {/* My Resume button */}
-                  <a href="https://raw.githubusercontent.com/bhavya1600/Me/main/src/assets/docs/Bhavya_s_Resume.pdf" target="_blank" rel="noopener noreferrer" className="text_2">
+                  <a href={resumeUrl} target="_blank" rel="noopener noreferrer" className="text_2">
                     <div id="button_h" className="ac_btn btn">
                       My Resume
                       <div className="ring one"></div>

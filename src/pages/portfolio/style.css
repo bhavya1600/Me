@@ -67,7 +67,8 @@
     color: var(--secondary-color);
 }
 
-.po_item .content a {
+.po_item .content a,
+.po_item .content .po_view {
     background: var(--bg-color);
     border: solid 1px var(--text-color);
     padding: 4px 8px;
@@ -77,4 +78,53 @@
 
 .po_item .content a:hover {
     text-decoration: none;
+}
+
+/* Text tile for projects without a screenshot */
+
+.po_placeholder {
+    min-height: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1.5rem;
+    background: var(--bg-color);
+    color: var(--text-color);
+    background-image: radial-gradient(rgba(128, 128, 128, 0.3) 1px, transparent 1px);
+    background-size: 14px 14px;
+}
+
+.po_placeholder__title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.po_placeholder__desc {
+    font-size: 1rem;
+    max-width: 18em;
+}
+
+.po_placeholder__tags {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    letter-spacing: 0.03em;
+}
+
+.po_item {
+    cursor: pointer;
+}
+
+.po_item:focus-visible {
+    outline: 2px solid var(--text-color);
+    outline-offset: 4px;
+}
+
+.po_item:focus-visible .content {
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    opacity: 1;
+    color: var(--secondary-color);
 }
