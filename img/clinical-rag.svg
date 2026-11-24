@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <radialGradient id="bg" cx="40%" cy="35%" r="80%">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#a8a8a8"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <!-- report stack -->
+  <rect x="120" y="110" width="260" height="340" fill="#d6d6d6" stroke="#222" stroke-width="3" transform="rotate(-6 250 280)"/>
+  <path d="M120 100 H330 L380 150 V440 H120 Z" fill="#fafafa" stroke="#111" stroke-width="4"/>
+  <path d="M330 100 V150 H380" fill="#e2e2e2" stroke="#111" stroke-width="4"/>
+  <!-- medical cross -->
+  <path d="M150 130 h22 v22 h22 v22 h-22 v22 h-22 v-22 h-22 v-22 h22 Z" fill="#111"/>
+  <g stroke="#555" stroke-width="7" stroke-linecap="round">
+    <line x1="215" y1="150" x2="300" y2="150"/><line x1="215" y1="175" x2="275" y2="175"/>
+  </g>
+  <!-- table -->
+  <g stroke="#111" stroke-width="2.5" fill="none">
+    <rect x="150" y="225" width="200" height="105"/>
+    <line x1="150" y1="260" x2="350" y2="260"/><line x1="150" y1="295" x2="350" y2="295"/>
+    <line x1="215" y1="225" x2="215" y2="330"/><line x1="285" y1="225" x2="285" y2="330"/>
+  </g>
+  <rect x="150" y="225" width="200" height="35" fill="#111"/>
+  <!-- vitals line -->
+  <polyline points="150,385 195,385 210,355 228,410 245,370 258,385 350,385" fill="none" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+  <!-- magnifier -->
+  <circle cx="330" cy="300" r="70" fill="#fff" fill-opacity=".35" stroke="#111" stroke-width="10"/>
+  <line x1="380" y1="350" x2="440" y2="410" stroke="#111" stroke-width="18" stroke-linecap="round"/>
+  <!-- answer bubble -->
+  <path d="M330 440 H520 a16 16 0 0 1 16 16 V530 a16 16 0 0 1 -16 16 H390 L360 572 L364 546 H330 a16 16 0 0 1 -16 -16 V456 a16 16 0 0 1 16 -16 Z" fill="#111"/>
+  <g stroke="#f2f2f2" stroke-width="7" stroke-linecap="round">
+    <line x1="345" y1="475" x2="505" y2="475"/><line x1="345" y1="500" x2="480" y2="500"/><line x1="345" y1="525" x2="430" y2="525"/>
+  </g>
+  <!-- question bubble -->
+  <path d="M430 130 H530 a14 14 0 0 1 14 14 V200 a14 14 0 0 1 -14 14 H500 L490 236 L480 214 H430 a14 14 0 0 1 -14 -14 V144 a14 14 0 0 1 14 -14 Z" fill="#fafafa" stroke="#111" stroke-width="4"/>
+  <text x="480" y="192" font-family="Georgia, serif" font-size="56" font-weight="700" text-anchor="middle" fill="#111">?</text>
+</svg>
